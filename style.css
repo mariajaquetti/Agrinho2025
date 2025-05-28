@@ -3,6 +3,49 @@
     background-size: cover;
 }
 
+header {
+    background-color: rgb(6, 72, 3);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 4px solid white;
+}
+
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #6e936d;
+}
+
+
+h2, p {
+    background-color: #064d00d9;
+}
+
 h2, p {
     color: white;
     margin: 5rem;
